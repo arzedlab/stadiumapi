@@ -15,6 +15,5 @@ async def read_item(id):
     except AttributeError:
         return {"error": "ID not found"}
 
-if __name__ == "__main__":
-    uvicorn.run("app:app", host="0.0.0.0", port=8000)
+
     
